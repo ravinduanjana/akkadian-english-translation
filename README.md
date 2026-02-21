@@ -1,11 +1,6 @@
 
 
 \## Model File Notice
-
-
-
-
-
 # Akkadian to English Translation Web Application
 
 ## Project Overview
@@ -13,7 +8,6 @@ This project is a neural machine translation system that translates Akkadian to 
 The model was trained using a Kaggle competition dataset.
 
 ## Technologies Used
-- FastAPI
 - Uvicorn
 - PyTorch
 - Hugging Face Transformers
@@ -23,7 +17,7 @@ The model was trained using a Kaggle competition dataset.
 
 ## Project Structure
 - frontend/ → User interface
-- backend/ → FastAPI server and model training code
+- backend/ → spring boot model training code
 
 ## Trained Model File
 
@@ -47,7 +41,6 @@ After downloading, place the model file inside the backend folder before running
 BLEU Score: 33.68
 
 ## Features
-- Web-based interface using FastAPI
 - Akkadian to English translation
 - Preprocessing and tokenization
 - Real-time inference
@@ -61,8 +54,6 @@ BLEU Score: 33.68
 
 This project is a Machine Learning based application that translates
 transliterated Akkadian text into English using a Neural Machine Translation (NMT) model.
-
-
-## Project Overview
-This project is a neural machine translation system that translates Akkadian to English.  
+ 
 The model was trained using a Kaggle competition dataset.
+
